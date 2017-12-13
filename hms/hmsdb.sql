@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 30, 2017 at 05:43 AM
+-- Generation Time: Oct 31, 2017 at 03:15 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -43,7 +43,31 @@ INSERT INTO `appointmenttb` (`fname`, `lname`, `email`, `contact`, `doctor`, `pa
 ('jdsnk', 'kjndk', 'jkdnk', 'kjdfn', 'Dr. Punam Shaw', ''),
 ('dsskj', 'dkjn', 'dnkjn', 'kjdn', 'Dr. Ashok Goyal', ''),
 ('sdkjn', 'dskjnk', 'kfdjnkjn', 'jndkjn', 'Dr. Ashok Goyal', 'Pay later'),
-('provat', 'dutta', 'pd@gmail.com', '9474764197', 'Dr. Ashok Goyal', 'Pay later');
+('provat', 'dutta', 'pd@gmail.com', '9474764197', 'Dr. Ashok Goyal', 'Pay later'),
+('sample1', 'sample1', 'sample1@gmail.com', '1982272721', 'Dr. Punam Shaw', 'Paid'),
+('Prithwiraj', 'Dutta', 'duttaprithwiraj9@gmail.com', '+917586827481', 'Dr. Ashok Goyal', 'Pay later'),
+('rohit', 'sharma', 'rs@yahoo.com', '2838393923', 'Dr. Punam Shaw', 'Paid'),
+('dexter', 'dutta', 'dd@yahoo.com', '327262728', 'Dr. Ashok Goyal', 'paid');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `doctb`
+--
+
+CREATE TABLE `doctb` (
+  `name` varchar(50) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `doctb`
+--
+
+INSERT INTO `doctb` (`name`) VALUES
+('Dr. Ashok Kumar'),
+('Dr. Pravin Malotra'),
+('Dr. Prithwiraj Dutta'),
+('Dr. Rohit Mehta');
 
 -- --------------------------------------------------------
 
